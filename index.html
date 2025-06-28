@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Assets/css/styles.css" />
+    <title>Perfil - Tinky Winky</title>
+</head>
+<body>
+
+<header class="header">
+  <div class="header__logo">
+    <strong>Teletubbie Perfil</strong>
+  </div>
+  <div class="header__right">
+    <nav class="header__nav">
+      <a href="#" class="header__link">Inicio</a>
+      <a href="#" class="header__link">Mi Perfil</a>
+      <a href="#" class="header__link">Encontrar Amigos</a>
+    </nav>
+    <button class="header__logout">Desaparecer</button>
+  </div>
+</header>
+
+<main class="main">
+  <div class="main__content">
+    <div class="main__col main__col--left">
+      
+      <!-- Perfil Card -->
+      <section class="profile-card">
+        <div class="profile-card__banner"></div>
+        <div class="profile-card__content">
+          <img src="https://i.pinimg.com/474x/65/41/69/65416946af01f8c2c3dc77689c770b89.jpg" alt="Foto de perfil Tinky Winky" class="profile-card__avatar" />
+          <h2 class="profile-card__name">Tinky Winky</h2>
+           <p class="profile-card__location">El Valle Teletubbie / Wall Street</p>
+          <p class="profile-card__roles">
+            Teletubbie líder en tiempo completo | Consultor financiero en el FMI | Agente encubierto de seguridad interdimensional
+          </p>
+           <p class="profile-card__bio">
+            De día, bailo con Po y cargo mi icónica bolsa roja por el Valle Teletubbie. <br>
+            De noche, predigo crisis bursátiles, desestabilizo gobiernos con memes y asesoro a millonarios sobre inversiones en criptomonedas inestables. <br>
+            ¿Tinky? Solo es mi nombre clave.
+          </p>
+          <button id="profile-card__edit" class="profile-card__edit">✎ Cambiar perfil</button>
+        </div>
+      </section>
+
+      <!-- Education Card -->
+       <section class="education-card">
+        <h3 class="education-card__title">Formación Teórica y Operacional</h3>
+        <p class="education-card__item"><strong>Harvard University - Doctorado en Macroeconomía Cuántica</strong></p>
+        <p class="education-card__item">Diplomado en Camuflaje y Comunicación No Verbal - CIA Academy</p>
+        <p class="education-card__item">Certificado en Bailes Aleatorios y Rastreo Satelital</p>
+      </section>
+    </div>
+
+    
+    <!-- Solicitudes de Conexión-->
+    <div class="main__col main__col--right">
+
+      <section class="connection-requests">
+    <h3 class="connection-requests__title">Solicitudes de Conexión (2) </h3>
+    <ul class="connection-requests__list">
+      <li class="connection-requests__item">
+        <img src="https://i1.sndcdn.com/avatars-8kWNwEEl07RaNWmE-xmI74g-t240x240.jpg" alt="Dipsy" class="connection-requests__avatar" />
+        <span class="connection-requests__name">Dipsy</span>
+        <div class="connection-requests__actions">
+          <button class="connection-requests__button connection-requests__button--accept" aria-label="Aceptar solicitud de Dipsy">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="connection-requests__icon">
+              <path fill-rule="evenodd" d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9.5 13.5c-.381.543-.926.83-1.504.83-.58 0-1.125-.287-1.505-.831L4.773 12.2A.75.75 0 0 1 5.91 11.23l3.473 4.962 8.423-12.006a.75.75 0 0 1 1.04-.208Z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <button class="connection-requests__button connection-requests__button--decline" aria-label="Rechazar solicitud de Dipsy">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="connection-requests__icon">
+              <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      </li>
+
+      <li class="connection-requests__item">
+        <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/08/tt-background-2.jpg" alt="Laa-Laa" class="connection-requests__avatar" />
+        <span class="connection-requests__name">Laa-Laa</span>
+        <div class="connection-requests__actions">
+          <button class="connection-requests__button connection-requests__button--accept" aria-label="Aceptar solicitud de Laa-Laa">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="connection-requests__icon">
+              <path fill-rule="evenodd" d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9.5 13.5c-.381.543-.926.83-1.504.83-.58 0-1.125-.287-1.505-.831L4.773 12.2A.75.75 0 0 1 5.91 11.23l3.473 4.962 8.423-12.006a.75.75 0 0 1 1.04-.208Z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <button class="connection-requests__button connection-requests__button--decline" aria-label="Rechazar solicitud de Laa-Laa">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="connection-requests__icon">
+              <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+
+
+
+      <!-- Tus Conexiones -->
+      <section class="connections">
+        <h3 class="connections__title">Tus Conexiones (500)</h3>
+        <ul class="connections__list">
+          <li class="connections__item">
+            <img src="https://pbs.twimg.com/media/Fi1UWjGWQAEBomg.jpg" alt="Adrien Desplatz" class="connections__avatar" />
+            <span class="connections__name">Po</span>
+          </li>
+          <li class="connections__item">
+            <img src="https://sm.ign.com/ign_latam/cover/b/barney-mov/barney-movie_8ehz.jpg" alt="Aarav Patel" class="connections__avatar" />
+            <span class="connections__name">Barney</span>
+          </li>
+          <li class="connections__item">
+            <img src="https://plazasesamo.com/files/s3fs-public/2020-06/videos_Elmo-Arcoiris-de-la-Alimentacion_img.png" alt="Lina Kovačević" class="connections__avatar" />
+            <span class="connections__name">Elmo</span>
+          </li>
+          <li class="connections__item">
+            <img src="https://i.pinimg.com/736x/b5/8a/9a/b58a9af50db10cf5b60b3ed8fdfec6a6.jpg" alt="Mateo Hernández" class="connections__avatar" />
+            <span class="connections__name">Mickey Mouse</span>
+          </li>
+          <li class="connections__item">
+            <img src="https://media.revistagq.com/photos/5ca5f6a77a3aec0df5496c59/1:1/w_1472,h_1472,c_limit/bob_esponja_9564.png" alt="Yuna Kim" class="connections__avatar" />
+            <span class="connections__name">Bob Esponja</span>
+          </li>
+          <li class="connections__item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrznoFA7XLjZjwUMQ_238X9Tm0U4mFWw4siA&s" alt="Liam O'Brien" class="connections__avatar" />
+            <span class="connections__name">Pepa Pig</span>
+          </li>
+        </ul>
+      </section>
+
+
+
+    </div>
+  </div>
+</main>
+<script src="Assets/js/script.js"></script>
+</body>
+</html>
